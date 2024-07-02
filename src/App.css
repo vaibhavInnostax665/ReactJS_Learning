@@ -1,5 +1,33 @@
-.App {
+* {
   text-align: center;
+}
+
+.unordered_list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.unordered_list li{
+  /* margin-right: 5%; */
+}
+
+.unordered_list button{
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: transparent;
+}
+.unordered_list button:hover{
+  cursor: pointer;
+  border-radius: 20%;
+  background-color: whitesmoke;
 }
 
 .App-logo {
