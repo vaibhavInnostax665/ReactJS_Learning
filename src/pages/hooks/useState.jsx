@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-const useStateLearning = () => {
+const UseState = () => {
   const [model,setModel] = useState("");
   const navigate=useNavigate();
   
@@ -20,4 +20,4 @@ const useStateLearning = () => {
   )
 }
 
-export default useStateLearning
+export default UseState;

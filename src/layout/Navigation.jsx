@@ -18,6 +18,12 @@ const Navigation = () => {
             <li>
             <button onClick={()=> navigate('/useState')}> useState</button>
             </li>
+            <li>
+            <button onClick={()=> navigate('/useCallback')}> useCallback</button>
+            </li>
+            <li>
+            <button onClick={()=> navigate('/useMemo')}> useMemo</button>
+            </li>
         </ul>
     </nav>
   )
